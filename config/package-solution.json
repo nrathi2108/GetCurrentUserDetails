@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-current-user-details-client-side-solution",
+    "id": "26bd13e4-eec0-4039-9e1b-52ce1fbf496f",
+    "version": "4.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "get-current-user-details description"
+      },
+      "longDescription": {
+        "default": "get-current-user-details description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-current-user-details Feature",
+        "description": "The feature that activates elements of the get-current-user-details solution.",
+        "id": "1899849c-681f-4991-a66a-55a3a39efbc2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-current-user-details.sppkg"
+  }
+}

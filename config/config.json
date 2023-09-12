@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-current-user-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getCurrentUserDetails/GetCurrentUserDetailsWebPart.js",
+          "manifest": "./src/webparts/getCurrentUserDetails/GetCurrentUserDetailsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  
+  "externals": {"jquery": {
+    "path": "https://code.jquery.com/jquery-2.1.1.min.js",
+    "globalName": "jQuery"
+  } },
+  "localizedResources": {
+    "GetCurrentUserDetailsWebPartStrings": "lib/webparts/getCurrentUserDetails/loc/{locale}.js"
+  }
+}

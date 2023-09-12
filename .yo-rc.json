@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "get-current-user-details",
+    "libraryId": "26bd13e4-eec0-4039-9e1b-52ce1fbf496f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "get-current-user-details",
+    "solutionShortDescription": "get-current-user-details description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
